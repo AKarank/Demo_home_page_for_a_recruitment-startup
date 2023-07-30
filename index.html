@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment Startup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #007BFF;
+      padding: 1rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+
+    .search-input {
+      padding: 0.5rem;
+      width: 300px;
+    }
+
+    .search-btn {
+      padding: 0.5rem 1rem;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .job-listings {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .job-card {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .company-showcase {
+      padding: 2rem;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    .company-logo {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Recruitment Startup</h1>
+  </header>
+  <main>
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Search for jobs...">
+      <button class="search-btn">Search</button>
+    </div>
+    <h2>Featured Job Listings</h2>
+    <div class="job-listings">
+      <div class="job-card">
+        <h3>Software Engineer</h3>
+        <p>Location: India</p>
+        <p>Experience: 2+ years</p>
+        <p>Skills: JavaScript, React, Node.js</p>
+      </div>
+      <div class="job-card">
+        <h3>Product Manager</h3>
+        <p>Location: Worldwide</p>
+        <p>Experience: 5+ years</p>
+        <p>Skills: Product Strategy, Project Management</p>
+      </div>
+      <div class="job-card">
+        <h3>Data Scientist</h3>
+        <p>Location: India</p>
+        <p>Experience: 3+ years</p>
+        <p>Skills: Python, Machine Learning</p>
+      </div>
+    </div>
+    <div class="company-showcase">
+      <h2>Companies Hiring Through Us</h2>
+      <img src="company1-logo.png" alt="Company 1 Logo" class="company-logo">
+      <img src="company2-logo.png" alt="Company 2 Logo" class="company-logo">
+      <img src="company3-logo.png" alt="Company 3 Logo" class="company-logo">
+    </div>
+  </main>
+</body>
+
+</html>
